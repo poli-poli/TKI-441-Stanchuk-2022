@@ -119,7 +119,7 @@ void display(char *array, const size_t size)
 
     std::cout << "[";
     for (size_t i = 0; i < size; i++) std::cout << "\"" << array[i] << "\", ";
-    std::cout << "\b\b\n";
+    std::cout << "\b\b]\n";
 }
 
 /* Функция получения случайного char */
